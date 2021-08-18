@@ -3,10 +3,12 @@ package com.kjsc.myapplication;
 import android.app.Application;
 
 
+import androidx.multidex.MultiDexApplication;
+
 import me.jessyan.autosize.AutoSizeConfig;
 import me.jessyan.autosize.unit.Subunits;
 
-public class MyApplication extends Application {
+public class MyApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
