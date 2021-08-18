@@ -1,0 +1,149 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kjsc.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="22" />
+9-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+14-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:5-75
+14-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:8:22-72
+15
+16    <application
+16-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:10:5-38:19
+17        android:name="com.kjsc.myapplication.MyApplication"
+17-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:11:9-38
+18        android:allowBackup="true"
+18-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] /Users/cj/.gradle/caches/transforms-2/files-2.1/1602505273d43f41d2f450ba7fa6ad4f/core-1.5.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:16:9-35
+24        android:theme="@style/Theme.MyApplication" >
+24-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-51
+25        <activity android:name="com.kjsc.myapplication.activity.MainActivity" >
+25-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:9-24:20
+25-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:18:19-56
+26            <intent-filter>
+26-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:19:13-23:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:17-69
+27-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:20:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:17-77
+29-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:22:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.kjsc.myapplication.activity.SecondActivity" />
+32-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:9-61
+32-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:26:19-58
+33        <activity android:name="com.kjsc.myapplication.activity.ThirdActivity" />
+33-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:9-60
+33-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:27:19-57
+34
+35        <service android:name="com.kjsc.myapplication.adbshell.TapService" />
+35-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:9-56
+35-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:29:18-53
+36
+37        <meta-data
+37-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:31:9-33:36
+38            android:name="design_width_in_dp"
+38-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:32:13-46
+39            android:value="1280" />
+39-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:33:13-33
+40        <meta-data
+40-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:34:9-36:35
+41            android:name="design_height_in_dp"
+41-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:35:13-47
+42            android:value="720" />
+42-->/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:36:13-32
+43
+44        <activity
+44-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:10:9-14:75
+45            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+45-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:11:13-83
+46            android:configChanges="orientation|keyboardHidden|screenSize"
+46-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:12:13-74
+47            android:theme="@style/ActivityTranslucent"
+47-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:13:13-55
+48            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+48-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:14:13-72
+49        <activity
+49-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:15:9-20:75
+50            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+50-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:16:13-71
+51            android:configChanges="orientation|keyboardHidden|screenSize"
+51-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:17:13-74
+52            android:multiprocess="true"
+52-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:18:13-40
+53            android:theme="@style/ActivityTranslucent"
+53-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:19:13-55
+54            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+54-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:20:13-72
+55
+56        <provider
+56-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:22:9-30:20
+57            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+57-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:23:13-70
+58            android:authorities="com.kjsc.myapplication.utilcode.provider"
+58-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:24:13-69
+59            android:exported="false"
+59-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:25:13-37
+60            android:grantUriPermissions="true" >
+60-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:26:13-47
+61            <meta-data
+61-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:27:13-29:68
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:28:17-67
+63                android:resource="@xml/util_code_provider_paths" />
+63-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:29:17-65
+64        </provider>
+65
+66        <service
+66-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:32:9-38:19
+67            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+67-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:33:13-81
+68            android:exported="false" >
+68-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:34:13-37
+69            <intent-filter>
+69-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:35:13-37:29
+70                <action android:name="com.kjsc.myapplication.messenger" />
+70-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:36:17-69
+70-->[com.blankj:utilcodex:1.30.6] /Users/cj/.gradle/caches/transforms-2/files-2.1/d53a61b623d96cc2829adb045ec2b1eb/jetified-utilcodex-1.30.6/AndroidManifest.xml:36:25-66
+71            </intent-filter>
+72        </service>
+73
+74        <provider
+74-->[me.jessyan:autosize:1.2.1] /Users/cj/.gradle/caches/transforms-2/files-2.1/835f85fce55954abf3833f46d227fb34/jetified-autosize-1.2.1/AndroidManifest.xml:12:9-16:43
+75            android:name="me.jessyan.autosize.InitProvider"
+75-->[me.jessyan:autosize:1.2.1] /Users/cj/.gradle/caches/transforms-2/files-2.1/835f85fce55954abf3833f46d227fb34/jetified-autosize-1.2.1/AndroidManifest.xml:13:13-60
+76            android:authorities="com.kjsc.myapplication.autosize-init-provider"
+76-->[me.jessyan:autosize:1.2.1] /Users/cj/.gradle/caches/transforms-2/files-2.1/835f85fce55954abf3833f46d227fb34/jetified-autosize-1.2.1/AndroidManifest.xml:14:13-74
+77            android:exported="false"
+77-->[me.jessyan:autosize:1.2.1] /Users/cj/.gradle/caches/transforms-2/files-2.1/835f85fce55954abf3833f46d227fb34/jetified-autosize-1.2.1/AndroidManifest.xml:15:13-37
+78            android:multiprocess="true" />
+78-->[me.jessyan:autosize:1.2.1] /Users/cj/.gradle/caches/transforms-2/files-2.1/835f85fce55954abf3833f46d227fb34/jetified-autosize-1.2.1/AndroidManifest.xml:16:13-40
+79    </application>
+80
+81</manifest>

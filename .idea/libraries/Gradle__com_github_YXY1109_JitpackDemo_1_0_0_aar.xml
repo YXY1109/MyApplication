@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.YXY1109:JitpackDemo:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24ae2d4cc1361c5d8f9e7d529df2af37/jetified-JitpackDemo-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24ae2d4cc1361c5d8f9e7d529df2af37/jetified-JitpackDemo-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24ae2d4cc1361c5d8f9e7d529df2af37/jetified-JitpackDemo-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.YXY1109/JitpackDemo/1.0.0/b19b0128df24320c911d5b14d78a36f76e253a7b/JitpackDemo-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

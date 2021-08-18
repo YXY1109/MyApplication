@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/custom_marker_view.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custom_marker_view.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_second.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_second.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_switch.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_switch.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_mpchart.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mpchart.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_video.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_video.xml"
+    },
+    {
+        "merged": "/Users/cj/AndroidStudioProjects/MyApplication/app/build/intermediates/incremental/mergeReleaseResources/stripped.dir/layout/activity_third.xml",
+        "source": "/Users/cj/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_third.xml"
+    }
+]

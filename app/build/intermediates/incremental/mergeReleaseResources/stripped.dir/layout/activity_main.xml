@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/start_service1"
+            android:layout_width="380pt"
+            android:layout_height="160pt"
+            android:background="@drawable/focus"
+            android:focusable="true"
+            android:padding="2dp"
+            android:src="@mipmap/hotel_1" />
+
+        <ImageView
+            android:id="@+id/start_service2"
+            android:layout_width="380pt"
+            android:layout_height="160pt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/focus"
+            android:focusable="true"
+            android:padding="2dp"
+            android:src="@mipmap/hotel_2" />
+
+        <RadioButton
+            android:id="@+id/radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试radiobutton" />
+
+        <ImageView
+            android:id="@+id/sd_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp" />
+
+        <TextView
+            android:id="@+id/start_tengxun"
+            android:layout_width="380pt"
+            android:layout_height="60pt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/focus"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="2dp"
+            android:src="@mipmap/hotel_2"
+            android:text="打开腾讯tv"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/start_youku"
+            android:layout_width="380pt"
+            android:layout_height="60pt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/focus"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="2dp"
+            android:src="@mipmap/hotel_2"
+            android:text="打开优酷tv"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/start_aiqiyi"
+            android:layout_width="380pt"
+            android:layout_height="60pt"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/focus"
+            android:focusable="true"
+            android:gravity="center"
+            android:padding="2dp"
+            android:src="@mipmap/hotel_2"
+            android:text="打开爱奇艺tv"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+</ScrollView>

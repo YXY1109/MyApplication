@@ -1,0 +1,49 @@
+com/kjsc/myapplication/databinding/ActivityMainBinding.java
+ com.kjsc.myapplication.databinding.ActivityMainBinding
+com/kjsc/myapplication/activity/SwitchActivity.java
+ com.kjsc.myapplication.activity.SwitchActivity
+com/kjsc/myapplication/activity/SecondActivity.java
+ com.kjsc.myapplication.activity.SecondActivity
+ com.kjsc.myapplication.activity.SecondActivity$1
+com/kjsc/myapplication/adbshell/TapService.java
+ com.kjsc.myapplication.adbshell.TapService
+ com.kjsc.myapplication.adbshell.TapService$1
+com/kjsc/myapplication/adbshell/RootCmd.java
+ com.kjsc.myapplication.adbshell.RootCmd
+com/kjsc/myapplication/activity/VideoActivity.java
+ com.kjsc.myapplication.activity.VideoActivity
+ com.kjsc.myapplication.activity.VideoActivity$1
+ com.kjsc.myapplication.activity.VideoActivity$2
+ com.kjsc.myapplication.activity.VideoActivity$3
+ com.kjsc.myapplication.activity.VideoActivity$MyPlayerOnCompletionListener
+com/kjsc/myapplication/adbshell/AdbUtils.java
+ com.kjsc.myapplication.adbshell.AdbUtils
+com/kjsc/myapplication/databinding/ActivitySwitchBinding.java
+ com.kjsc.myapplication.databinding.ActivitySwitchBinding
+com/kjsc/myapplication/databinding/ActivityMpchartBinding.java
+ com.kjsc.myapplication.databinding.ActivityMpchartBinding
+com/kjsc/myapplication/databinding/CustomMarkerViewBinding.java
+ com.kjsc.myapplication.databinding.CustomMarkerViewBinding
+com/kjsc/myapplication/databinding/ActivityThirdBinding.java
+ com.kjsc.myapplication.databinding.ActivityThirdBinding
+com/kjsc/myapplication/activity/ThirdActivity.java
+ com.kjsc.myapplication.activity.ThirdActivity
+com/kjsc/myapplication/databinding/ActivitySecondBinding.java
+ com.kjsc.myapplication.databinding.ActivitySecondBinding
+com/kjsc/myapplication/BuildConfig.java
+ com.kjsc.myapplication.BuildConfig
+com/kjsc/myapplication/MyApplication.java
+ com.kjsc.myapplication.MyApplication
+com/kjsc/myapplication/activity/MPChartActivity.java
+ com.kjsc.myapplication.activity.MPChartActivity
+ com.kjsc.myapplication.activity.MPChartActivity$1
+ com.kjsc.myapplication.activity.MPChartActivity$2
+com/kjsc/myapplication/activity/MainActivity.java
+ com.kjsc.myapplication.activity.MainActivity
+ com.kjsc.myapplication.activity.MainActivity$1
+ com.kjsc.myapplication.activity.MainActivity$2
+ com.kjsc.myapplication.activity.MainActivity$3
+com/kjsc/myapplication/databinding/ActivityVideoBinding.java
+ com.kjsc.myapplication.databinding.ActivityVideoBinding
+com/kjsc/myapplication/MyMarkerView.java
+ com.kjsc.myapplication.MyMarkerView
