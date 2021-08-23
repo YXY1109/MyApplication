@@ -92,12 +92,18 @@ public class MainActivity extends AppCompatActivity {
          binding.sdPic.setImageBitmap(ret);
          **/
 
-//        DisplayMetrics dm = new DisplayMetrics();
+        //DisplayMetrics dm = new DisplayMetrics();
         DisplayMetrics dm = getResources().getDisplayMetrics();
         int heigth = dm.heightPixels;// 表示屏幕的像素高度，单位是px（像素）
         int width = dm.widthPixels;// 表示屏幕的像素宽度，单位是px（像素）
-        Log.i("yxy", "width:" + width);
-        Log.i("yxy", "heigth:" + heigth);
+        //Log.i("yxy", "width:" + width);
+        //Log.i("yxy", "heigth:" + heigth);
+
+        Log.e("yxy", "densityDpi: " + dm.densityDpi);
+        Log.e("yxy", "density: " + dm.density);
+        Log.e("yxy", "widthPixels: " + dm.widthPixels);
+        Log.e("yxy", "heightPixels: " + dm.heightPixels);
+
     }
 
     public static void doCmds(List<String> cmds) throws Exception {
@@ -119,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT <= Build.VERSION_CODES.KITKAT) {
             radioButton.setButtonDrawable(getResources().getDrawable(android.R.color.transparent));
         } else {
-            Log.i("yxy","KITKAT22");
+            Log.i("yxy", "KITKAT22");
             radioButton.setBackground(null);
             radioButton.setButtonDrawable(null);
         }
